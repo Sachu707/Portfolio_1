@@ -9,13 +9,17 @@
   border: none;
   font-family: 'Poppins',sans-serif;
 }
-.header{
-  background-color: #363636;
-
+#header{
+}
+.header {
+  width:100%;
+  position: fixed;
+  
+  height:60px;
 }
 .logo{
   font-size: 2rem;
-  color: rgb(125 125 125);
+  color: rgb(255, 255, 255);
   font-weight: 900;
   padding-left: 9%;
 }
@@ -24,7 +28,7 @@
   padding-top: 12%;
 }
 .main{
-  background-image: url(images/Athulkrishna.png);
+  background-image: url(images/Untitled\ design\ \(1\).png);
   background-size: cover;
   height: 663px;
   width: 100;
@@ -41,7 +45,7 @@
 }
 .topnav a {
   
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   padding: 40px 16px;
   text-decoration: none;
@@ -50,13 +54,13 @@
   margin-bottom: 2%;
 }
 .topnav a:hover{
-color: #d1b13c;
+color: #c50202bd;
 }
 .text{
-  padding-left: 9%;
-  color: #ababab;
-  margin-top: 9px; 
-  font-size: 20px;
+  padding-left: 1%;
+    color: #5d2626;
+    margin-top: 9px;
+    font-size: 28px;
   
 }
 .text h1{
@@ -74,22 +78,22 @@ span{
 }
 @keyframes example {
     0% {color: rgb(0, 0, 0);}
-    50% {color: rgb(196, 199, 24);}
-    100% {color: rgb(216, 216, 216);}
+    70% {color: rgb(201, 0, 0);}
+    100% {color: rgb(0, 0, 0);}
   }
 .hello{
-  font-size: 40px;
-  padding-top: 18%;
-  padding-left: 9%;
-  color:#b6bb63;
+  font-size: 49px;
+    padding-top: 18%;
+    padding-left: -3%;
+    color: #040000c7;
 }
 .hello h2{
   margin-bottom: 0;
 }
 .para{
-  padding-left: 9%;
-  padding-top: 11px;
-  color: #ffffff;
+  padding-left: 1%;
+    padding-top: 4px;
+    color: #ffffff;
 }
 .para p{
   margin-top: 0; 
@@ -103,14 +107,20 @@ span{
 
 
 .About-Main{
-  background-image: url(./images/blackBg.png);
+  background-image: url(./images/profilebg.png);
   background-size: cover;
-  height: 663px;
+  height: 689px;
   width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+.About-Main{
+  padding-left: 40%;
 }
 .About-Main h1{
-  padding-left: 28%;
   color: #000;
+  padding-top: 38px;
+  align-items: center;
 }
 .About-Main h2{
   padding-top: 21px;
@@ -120,9 +130,11 @@ span{
 
 .About-Main h3{
   align-items: center;
-  padding-top: 9px;
-  color: #000;
+    padding-top: 9px;
+    color: #ffff;
+    font-family: monospace;
 }
+
 
 
 
@@ -139,10 +151,21 @@ width: 100%;
 }
 .Service-Main_link{
   display: flex;
-  padding-top: 243px;
-  padding-left: 150px;
+  padding-top: 37px;
+  padding-left: 38px;
   justify-content: space-between;
   color: rgb(113 123 30);
+}
+.Service-Main_T_link{
+  display: flex;
+  padding-top: 32px;;
+  justify-content: space-between;
+  padding-left: 196px;
+  padding-right: 216px;
+}
+.gal-h1 {
+  color: #fff;
+  text-decoration: underline;
 }
 .Service-Main h1:hover{
   color: rgb(255, 255, 255);
@@ -151,13 +174,12 @@ width: 100%;
   height: 100%;
 }
 .Service-Main h1{
-  display: flex;
-  color: #ffffff;
-  font-size: 2rem;
-  color: rgb(113 123 30);
+  font-size: 25px;
   font-weight: 900;
-  
  
+}
+.secnd {
+  padding-left: 50px;
 }
 .ph{
   float: left;
@@ -219,4 +241,78 @@ width: 100%;
 background-size: cover;
 height: 692px;
 width: 100%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  #header{
+    background-color: #363636;
+  
+  }
+  .logo{
+    font-size: 2rem;
+    color: rgb(125 125 125);
+    font-weight: 900;
+    padding-left: 2%;
+  }
+  .main{
+    background-image: url(images/me.jpg);
+    background-size: cover;
+    height: 576px;
+    width: 412px;
+  }
+  .topnav a {
+    color: #c3c3c3;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: -26%;
+    margin-bottom: 2%;
+}
+.hello{
+  font-size: 45px;
+    padding-top: 18%;
+    padding-left: 1%;
+    color: #020202d9;
+}
+
+  .logo{
+    font-size: 2rem;
+    color: rgb(125 125 125);
+    font-weight: 900;
+    padding-left: 2%;
+  }
+  .main-text {
+    padding-left: 8%;
+    padding-top: 38%;
+}
+.text {
+  padding-left: 1%;
+  color: #555353;
+  margin-top: 9px;
+  font-size: 22px;
+}
+
+
+.About-Main h3 {
+  align-items: center;
+  padding-top: 0px;
+  color: #000000;
+  font-size: 1rem;
+}
+.About-Main h2 {
+  padding-top: 0px;
+  color: #7b6208;
+  font-family: cursive;
+}
+.Service-Main img{
+  height: 64%;
+}
+
+.Service-Main_link{
+  padding-top: 25px;
+  padding-left: 27px;
+}
 }
